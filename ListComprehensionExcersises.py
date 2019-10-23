@@ -15,8 +15,12 @@ def listcomparision_two():
         answer2.append(word[::-1].lower())
         print(answer2)
 
+def division():
+    x = [i for i in range(1,100) if i % 12 == 0]
+    print(x)
 
 
 if __name__ == '__main__':
     listcomparision()
     listcomparision_two()
+    division()
